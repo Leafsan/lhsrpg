@@ -1,0 +1,83 @@
+{
+	"human": {
+		"base_phy": 10,
+		"base_agi": 10,
+		"base_wil": 10,
+		"base_int": 10,
+		"hp_bonus": 8,
+		"mp_bonus": 8,
+		"fate_bonus": 2
+	},
+	"elf": {
+		"base_phy": 9,
+		"base_agi": 12,
+		"base_wil": 11,
+		"base_int": 10,
+		"hp_bonus": 8,
+		"mp_bonus": 8,
+		"fate_bonus": 1
+	},
+	"dwarf": {
+		"base_phy": 12,
+		"base_agi": 9,
+		"base_wil": 10,
+		"base_int": 10,
+		"hp_bonus": 8,
+		"mp_bonus": 8,
+		"fate_bonus": 1
+	},
+	"half_alv": {
+		"base_phy": 9,
+		"base_agi": 11,
+		"base_wil": 10,
+		"base_int": 12,
+		"hp_bonus": 8,
+		"mp_bonus": 8,
+		"fate_bonus": 1
+	},
+	"felinoid": {
+		"base_phy": 11,
+		"base_agi": 12,
+		"base_wil": 9,
+		"base_int": 10,
+		"hp_bonus": 8,
+		"mp_bonus": 8,
+		"fate_bonus": 1
+	},
+	"wolf_fang": {
+		"base_phy": 13,
+		"base_agi": 11,
+		"base_wil": 10,
+		"base_int": 8,
+		"hp_bonus": 16,
+		"mp_bonus": 0,
+		"fate_bonus": 1
+	},
+	"wolf_fang": {
+		"base_phy": 13,
+		"base_agi": 11,
+		"base_wil": 10,
+		"base_int": 8,
+		"hp_bonus": 16,
+		"mp_bonus": 0,
+		"fate_bonus": 1
+	},
+	"fox_tail": {
+		"base_phy": 8,
+		"base_agi": 10,
+		"base_wil": 12,
+		"base_int": 11,
+		"hp_bonus": 8,
+		"mp_bonus": 8,
+		"fate_bonus": 1
+	},
+	"ritian": {
+		"base_phy": 8,
+		"base_agi": 10,
+		"base_wil": 11,
+		"base_int": 13,
+		"hp_bonus": 0,
+		"mp_bonus": 16,
+		"fate_bonus": 1
+	}
+}
