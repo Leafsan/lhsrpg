@@ -3,8 +3,6 @@ extends Node2D
 
 class_name BaseCharacter
 
-const LifeStatus = preload("res://LifeStatus.gd")
-
 # Default Character Info
 var character_name: String = "Unknown"
 var level: int = 35
@@ -52,15 +50,7 @@ var resistance: int = 0
 
 # combat status
 var regen: int = 0
-var damage_reduction: Dictionary = {
-	"physical": 0,
-	"magic": 0,
-	"radiant": 0,
-	"fire": 0,
-	"lightning": 0,
-	"cold": 0,
-	"poison": 0
-}
+var damage_reduction: Dictionary = {}
 var shield: int = 0
 
 # life status
@@ -73,6 +63,8 @@ var confused: bool = false
 var staggered: bool = false
 var afflicated: bool = false
 var overconfident: bool = false
+var weaken: int = 0
+var extra_hits: Array = []
 
 # check_rank
 var rank_athletics: int = 0

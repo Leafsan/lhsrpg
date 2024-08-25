@@ -1,5 +1,6 @@
 # LifeStatus.gd
 # extends Reference  # Reference를 상속하여 가볍고 관리하기 쉬운 객체로 만듭니다.
+class_name LifeStatus
 
 # 라이프 스테이터스의 이름과 설명
 var status_name: String = ""
